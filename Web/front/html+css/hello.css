@@ -1,0 +1,13 @@
+h1{
+    text-align: center
+}
+td{
+    width: 100px;
+    height: 100px;
+}
+
+
+.vertical{
+    border-left: 10px solid black;
+    border-right: 1px solid black;
+}

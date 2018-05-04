@@ -1,0 +1,37 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Formo fillng</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>Register</h1>
+    <form>
+    <label for="first_name" >First Name: </label>
+    <input name="first_name" type="text" placeholder="John"  required>
+    <label for="last_name">Last Name: </label>
+    <input name="last_name" type="text" placeholder="Smith" required >  
+    <div>
+            <label for="Male">Male: </label>
+            <input name="Gender" id="Male" type="radio" value="Male">
+            <label for="Female">Female</label>
+            <input name="Gender" id="Female" type="radio" value="Female">
+            <label for="Others">Others: </label>
+            <input name="Gender" id="Others" type="radio" value="Others">
+    </div> 
+
+    <div>
+            <label for="email">Email: </label>
+            <input name="email" type="email" placeholder="your email" required>
+            <label>Password:<input name="password" type="password" placeholder="password" minlength="4" maxlength="10" required> </label>
+            
+    </div>
+    <input type="submit">
+    </form>
+    
+</body>
+</html>
