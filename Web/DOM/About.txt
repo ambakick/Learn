@@ -1,0 +1,7 @@
+
+Document Object Model (DOM)
+
+
+An interface for allowing JS to interact with the HTML & CSS
+
+making the website more interactive.
