@@ -1,0 +1,9 @@
+<h1>Result Page</h1>
+
+
+ <% data["Search"].forEach(function(movie) { %>
+  <h4><%= movie["Title"] %></h4>
+  <li><%= movie["Year"] %></li>
+  <li><%= movie["imdbID"] %></li>
+  <img src= <%= movie["Poster"]%>>
+<% }) %> 
