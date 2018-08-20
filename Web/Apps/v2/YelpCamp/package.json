@@ -1,0 +1,30 @@
+{
+  "name": "yelpcamp",
+  "version": "1.0.0",
+  "description": "To learn about basic data retention and database",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ambakick/Learn.git"
+  },
+  "keywords": [
+    "Database",
+    "express",
+    "node"
+  ],
+  "author": "ambakick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ambakick/Learn/issues"
+  },
+  "homepage": "https://github.com/ambakick/Learn#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.9"
+  }
+}
